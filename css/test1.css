@@ -1,0 +1,91 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	width: 100%;
+	background-color: #7596FD;
+}
+
+.p1{
+	position: absolute;
+	top: 100px;
+	left:150px;
+}
+
+.p2{
+	position: absolute;
+	top: 100px;
+	right: 200px;
+}
+
+.win-times{
+	color: red;
+}
+
+.win{
+	position: absolute;
+	top: 340px;
+	left: 610px;
+	font: normal bold 50px/50px sans-serif;
+	display: none;
+}
+
+.lose{
+	position: absolute;
+	top: 340px;
+	left: 610px;
+	font: normal bold 50px/50px sans-serif;
+	display: none;
+}
+
+.tie{
+	position: absolute;
+	top: 340px;
+	left: 670px;
+	font: normal bold 50px/50px sans-serif;
+	display: none;
+}
+
+.box{
+	position: absolute;
+	top: 250px;
+	left: 200px;
+}
+
+.box .default{
+	width: 200px;
+	height: 200px;
+	margin-right: 150px;
+	cursor: pointer;
+}
+
+button{
+	width: 60px;
+	height: 30px;
+	background-color: #000;
+	color: #fff;
+	font: normal 100 20px/20px sans-serif;
+	border-color: #000;
+	cursor: pointer;
+	position: absolute;
+	top: 100px;
+	left: 650px;
+	border-radius: 4px;
+}
+
+.computer{
+	position: absolute;
+	left: 100px;
+	width: 250px !important;
+	height: 250px !important;
+}
+
+.yourself{
+	position: absolute;
+	top: 250px;
+	right: 200px;
+	width: 250px;
+	height: 250px;
+}
